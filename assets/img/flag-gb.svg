@@ -1,0 +1,11 @@
+<svg width="32" height="24" viewBox="0 0 32 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">English version</title>
+  <clipPath id="r"><rect width="32" height="24" rx="3"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect width="32" height="24" fill="#012169"/>
+    <path d="M-4 0L32 27M36 0L0 27" stroke="#fff" stroke-width="5"/>
+    <path d="M-4 0L32 27M36 0L0 27" stroke="#C8102E" stroke-width="3"/>
+    <path d="M16 0V24M0 12H32" stroke="#fff" stroke-width="8"/>
+    <path d="M16 0V24M0 12H32" stroke="#C8102E" stroke-width="5"/>
+  </g>
+</svg>

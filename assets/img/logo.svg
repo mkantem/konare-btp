@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Groupe KONARE BTP</title>
+  <desc id="desc">Icone de maison et chantier pour une entreprise de construction.</desc>
+  <rect width="64" height="64" rx="10" fill="#102133"/>
+  <path d="M13 30L32 15L51 30" stroke="#F2BE4C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 31H46V49H18V31Z" fill="#F2BE4C"/>
+  <path d="M26 49V37H33V49" fill="#102133"/>
+  <path d="M38 49V37H44V49" fill="#102133"/>
+  <path d="M16 54H48" stroke="#D99A24" stroke-width="4" stroke-linecap="round"/>
+</svg>

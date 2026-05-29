@@ -1,0 +1,6 @@
+<svg width="32" height="24" viewBox="0 0 32 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Version francaise</title>
+  <rect width="32" height="24" rx="3" fill="#fff"/>
+  <path d="M0 0H10.7V24H0V0Z" fill="#002395"/>
+  <path d="M21.3 0H32V24H21.3V0Z" fill="#ED2939"/>
+</svg>
