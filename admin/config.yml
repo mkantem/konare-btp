@@ -1,0 +1,41 @@
+site_url: https://konarebtp.ml
+display_url: https://konarebtp.ml
+logo_url: https://konarebtp.ml/assets/img/logo.svg
+
+backend:
+  name: github
+  repo: mkantem/konare-btp
+  branch: main
+  base_url: https://cms-auth.konarebtp.ml
+  auth_endpoint: auth
+
+media_folder: assets/img/uploads
+public_folder: /assets/img/uploads
+
+collections:
+  - name: configuration
+    label: Configuration du site
+    files:
+      - name: videos_tiktok
+        label: Videos TikTok
+        file: content/tiktok-videos.json
+        format: json
+        fields:
+          - name: videos
+            label: Videos TikTok
+            label_singular: Video TikTok
+            widget: list
+            hint: Ajoutez les nouvelles videos en bas de la liste. Elles apparaitront automatiquement en premier sur le site.
+            summary: "{{fields.url}}"
+            fields:
+              - name: url
+                label: Lien TikTok
+                widget: string
+                hint: "Exemple : https://www.tiktok.com/@compte/video/123456789"
+                pattern:
+                  - "^https://www\\.tiktok\\.com/@[^/]+/video/[0-9]+(?:[/?#].*)?$"
+                  - Entrez un lien public TikTok au format https://www.tiktok.com/@compte/video/123456789
+              - name: enabled
+                label: Actif
+                widget: boolean
+                default: true

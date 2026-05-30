@@ -558,6 +558,28 @@ a {
   padding: 24px;
 }
 
+.reviews-notice {
+  padding: 20px;
+  border-left: 4px solid var(--gold);
+  background: var(--soft);
+}
+
+.reviews-notice h2 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 1.25rem;
+}
+
+.reviews-notice p {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.reviews-thread {
+  min-height: 260px;
+  margin-top: 28px;
+}
+
 .contact-card a,
 .site-footer a {
   color: inherit;
