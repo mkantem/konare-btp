@@ -16,6 +16,8 @@
   --footer-muted: #c8d2dc;
   --nav-text: #102133;
   --hero-copy: #e8eef5;
+  --cta-bg: #102133;
+  --cta-text: #ffffff;
   --cta-copy: #dfe7ef;
   --active-link: #9f6b11;
   --icon-bg: rgba(217, 154, 36, 0.14);
@@ -40,6 +42,8 @@
   --footer-muted: #b8c4d2;
   --nav-text: #eef4fb;
   --hero-copy: #d8e1ec;
+  --cta-bg: #102133;
+  --cta-text: #f1f5f9;
   --cta-copy: #dce5ee;
   --active-link: #f2be4c;
   --icon-bg: rgba(242, 190, 76, 0.16);
@@ -495,8 +499,8 @@ a {
 }
 
 .cta-band {
-  background: var(--navy);
-  color: var(--white);
+  background: var(--cta-bg);
+  color: var(--cta-text);
 }
 
 .cta-grid {

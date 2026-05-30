@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
     <title>Groupe KONARE BTP</title>
-    <meta http-equiv="refresh" content="0; url=fr/">
     <link rel="canonical" href="https://konarebtp.ml/fr/">
-    <script>window.location.replace("fr/" + window.location.search + window.location.hash);</script>
+    <script>
+      if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+        window.location.replace("/fr/" + window.location.search + window.location.hash);
+      }
+    </script>
   </head>
   <body>
-    <p><a href="fr/">Accéder au site Groupe KONARE BTP</a></p>
+    <p><a href="/fr/">Accéder au site Groupe KONARE BTP</a></p>
   </body>
 </html>
