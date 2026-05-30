@@ -1,0 +1,20 @@
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+
+# Node and Cloudflare Worker local state
+node_modules/
+.wrangler/
+
+# Local preview output
+.preview-server.log
+.preview-server.err.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
