@@ -136,14 +136,14 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
 
-    if (url.pathname === "/auth") {
+    if (request.method === "GET" && url.pathname === "/auth") {
       return handleAuth(url, env);
     }
 
-    if (url.pathname === "/callback") {
+    if (request.method === "GET" && url.pathname === "/callback") {
       return handleCallback(request, url, env);
     }
 
-    return new Response("KONARE BTP Decap CMS OAuth proxy");
+    return new Response("Not found", { status: 404 });
   },
 };

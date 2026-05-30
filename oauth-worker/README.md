@@ -3,6 +3,9 @@
 Ce Worker Cloudflare fournit les routes `/auth` et `/callback` utilisees par Decap
 CMS pour la connexion GitHub.
 
+Seules les requetes `GET /auth` et `GET /callback` sont acceptees. Toutes les
+autres routes et methodes retournent `404`.
+
 ## Secrets
 
 Ne pas enregistrer les secrets GitHub dans le depot. Les ajouter avec Wrangler :

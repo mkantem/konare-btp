@@ -499,8 +499,13 @@ a {
 }
 
 .cta-band {
-  background: var(--cta-bg);
-  color: var(--cta-text);
+  background: #102133;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .cta-band {
+  background: #102133;
+  color: #f1f5f9;
 }
 
 .cta-grid {
@@ -513,7 +518,11 @@ a {
 }
 
 .cta-grid p {
-  color: var(--cta-copy);
+  color: #dfe7ef;
+}
+
+[data-theme="dark"] .cta-grid p {
+  color: #dce5ee;
 }
 
 .page-hero {

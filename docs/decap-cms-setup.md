@@ -23,6 +23,9 @@ des videos TikTok stockee dans `content/tiktok-videos.json`.
 Decap CMS utilise `https://cms-auth.konarebtp.ml` comme proxy OAuth. Le Worker doit
 exposer les routes `/auth` et `/callback`.
 
+Le Worker accepte uniquement `GET /auth` et `GET /callback`. Les autres routes et
+methodes retournent `404`.
+
 La documentation Decap CMS recommande un Worker leger pour ce cas d'usage :
 
 https://decapcms.org/docs/backends-overview/#using-github-with-an-oauth-proxy
