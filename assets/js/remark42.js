@@ -10,8 +10,24 @@
     locale: locale,
     theme: theme,
     no_footer: true,
-    components: ["embed"]
+    components: ["embed"],
+    styles: {
+      minHeight: "640px",
+      overflow: "hidden"
+    }
   };
+
+  const root = document.getElementById("remark42");
+  const disableIframeScrolling = function () {
+    const iframe = root && root.querySelector("iframe");
+    if (iframe) {
+      iframe.setAttribute("scrolling", "no");
+    }
+  };
+
+  if (root) {
+    new MutationObserver(disableIframeScrolling).observe(root, { childList: true });
+  }
 
   const script = document.createElement("script");
   const supportsModules = "noModule" in script;
