@@ -5,10 +5,6 @@
       "enabled": true
     },
     {
-      "url": "https://www.tiktok.com/@groupekonarebtp2emecompt/video/7642046249377615124",
-      "enabled": true
-    },
-    {
       "url": "https://www.tiktok.com/@groupekonarebtp2emecompt/video/7643795017714257172",
       "enabled": true
     },
@@ -27,6 +23,10 @@
     {
       "enabled": true,
       "url": "https://www.tiktok.com/@groupekonarebtp2emecompt/video/7711453064032537874?is_from_webapp=1&sender_device=pc"
+    },
+    {
+      "enabled": true,
+      "url": "https://www.tiktok.com/@groupekonarebtp2emecompt/video/7710534605530467592?is_from_webapp=1&sender_device=pc"
     }
   ]
 }
